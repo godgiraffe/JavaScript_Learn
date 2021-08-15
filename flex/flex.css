@@ -1,0 +1,64 @@
+.banner {
+    width: 100%;
+    height:  50px;
+    background-color: #fff;
+
+
+
+    display: flex;
+    flex-direction:  row;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.banner_fia {
+    width:  38px;
+    height: 25px;
+}
+
+.banner_f1  {
+    margin-left:   10px;
+}
+
+.banner_f2 {
+    margin-left:   10px;
+}
+
+.banner_f3 {
+    margin-left:   10px;
+}
+
+
+.menu {
+    width: 100%;
+    height: 60px;
+    background-color: #777;
+
+    display: flex;
+}
+
+
+.conntainer{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: darkorange;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.conntainer > .video {
+    width: 50%;
+    height: 100%;
+    background-color: darkseagreen;
+}
+
+.conntainer > .news {
+    width: 50%;
+    height: 100%;
+    background-color:lightcoral;
+}
